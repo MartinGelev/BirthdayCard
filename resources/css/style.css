@@ -1,0 +1,122 @@
+body{
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(93, 9, 121, 1) 90%);
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 5px solid rgb(194, 127, 216);
+    z-index: 10;
+}
+
+.out-circle{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    background-color: white;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.inner{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    background-color: white;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.happy{
+font-family: 'Roboto', sans-serif;
+font-size: 30px;
+}
+
+.birthday{
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+    margin: 10px;
+}
+
+.baloonCircle{
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+.baloon1{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    z-index: 11;
+}
+
+.baloon2 {
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    z-index: -1;
+    transform: rotate(20deg);
+}
+
+.baloon3 {
+    position: absolute;
+    left: 85px;
+    top: 500px;
+    z-index: -1;
+    transform: rotate(-20deg);
+}
+
+.baloon4 {
+    position: absolute;
+    left: 85px;
+    top: 350px;
+    z-index: 11;
+    transform: rotate(-10deg);
+}
+
+.baloon5 {
+    position: absolute;
+    left: 550px;
+    top: 650px;
+    z-index: 11;
+    transform: rotate(15deg);
+}
+
+.baloon6 {
+    position: absolute;
+    left: 690px;
+    top: 350px;
+    z-index: 11;
+    transform: rotate(-25deg);
+}
+
+.baloon7 {
+    position: absolute;
+    left: 500px;
+    top: 60px;
+    z-index: 11;
+    transform: rotate(-5deg);
+}
